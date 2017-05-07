@@ -15,12 +15,13 @@ body {
 
 h1 {
   font-size: 2.5em;
+  font-family: "Inknut Antiqua", serif;
 }
 
 .instructions {
   background: #444;
   border: 1px solid;
-  padding: 1em .1em 1em .1em;
+  padding: 1em .5em 1em .5em;
 }
 
 .btn {
@@ -40,6 +41,7 @@ h1 {
 blockquote {
   border-left: none;
   margin: 0 0 5px;
+  font-family: "Inknut Antiqua", serif;
 }
 
 blockquote footer {
