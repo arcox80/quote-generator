@@ -31,7 +31,7 @@ h1 {
 
 .quote {
   background: #555;
-  border: 1px solid;
+  border: 1px solid #eee;
   border-radius: 0px 0px 10px 10px;
   padding: 1em .1em .5em .1em;
   margin-bottom: 2em;
@@ -80,4 +80,12 @@ a.tweet {
 
 .noshow {
   display: none;
+}
+
+#grad {
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(white, lightgray, #555); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(white, lightgray, #555); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(white, lightgray, #555); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(white, lightgray, #555); /* Standard syntax */
 }

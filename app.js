@@ -8,6 +8,8 @@ $(document).ready(function() {
       var quoteText = json[firstNum].quotes[secondNum];
 
       $('.js-preview').hide();
+      $('.quote').attr('id', 'grad').css('color', 'black');
+      $('blockquote footer').css('color', 'black');
       $(".js-quoteDiv").fadeOut(function() {
         $('.js-quote').text("\"" + quoteText + "\"");
         $('.js-author').text(author);
