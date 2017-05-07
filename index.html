@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Random Quote Generator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="title col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+        <h1>Random Quote Generator</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 instructions">
+        <p>It's pretty simple. Click the button and start your path of self-discovery, inspiration, and enlightenment.</p>
+        <button type="button" id="getQuote" class="btn btn-primary btn-lg">Click For Deeper Understanding</button>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 quote">
+        <p class="js-preview">Your quote will appear here.</p>
+        <div class="js-quoteDiv quoteDiv noshow">
+          <blockquote>
+          <p class="js-quote"></p>
+          <footer><em class="js-author"></em></footer>
+          </blockquote>
+        </div>
+        <div class="js-tweetDiv noshow">
+          <a href="#" class="tweet js-tweet" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet it!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>

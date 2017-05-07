@@ -1,0 +1,81 @@
+body {
+  font-family: "Times New Roman", serif;
+  color: #eee;
+  background: #6CA6CD;
+  font-size: 2em;
+  text-align: center;
+}
+
+.title {
+  margin-top: 2em;
+  background: #333;
+  border: 1px solid;
+  border-radius: 10px 10px 0px 0px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+.instructions {
+  background: #444;
+  border: 1px solid;
+  padding: 1em .1em 1em .1em;
+}
+
+.btn {
+  border: 1px solid;
+  box-shadow: 0 11px 10px -4px #1e1e1e;
+}
+
+.quote {
+  background: #555;
+  border: 1px solid;
+  border-radius: 0px 0px 10px 10px;
+  padding: 1em .1em .5em .1em;
+  margin-bottom: 2em;
+  box-shadow: 0 40px 20px -10px #1e1e1e;
+}
+
+blockquote {
+  border-left: none;
+  margin: 0 0 5px;
+}
+
+blockquote footer {
+  color: #eee;
+  font-size: 100%;
+}
+
+a.tweet {
+  display: inline-block;
+}
+
+.tweet {
+  background-color: #1b95e0;
+  box-shadow: 0 11px 10px -4px #1e1e1e;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  touch-action: manipulation;
+}
+
+.tweet:hover {
+  background-color: #0c7abf;
+}
+
+.tweet:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.tweet:active {
+  transform: translateY(4px);
+  box-shadow: none;
+}
+
+.noshow {
+  display: none;
+}
